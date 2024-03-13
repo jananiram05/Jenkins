@@ -15,7 +15,6 @@ public class SeleniumTest {
 		WebDriverManager.chromedriver().setup();
 		//WebDriverManager.edgedriver().setup();
 		 WebDriver driver=new ChromeDriver();
-		
 		//WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://qa-tekarch.firebaseapp.com/");
